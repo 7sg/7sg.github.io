@@ -1,34 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Sample Website</title>
+    <title>Codecure Software Solution LLP</title>
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .cta-btn {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .cta-btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        footer p {
+            margin: 5px;
+        }
+        .services-list {
+            list-style: disc;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .services-list li {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Sample Website</h1>
+        <h1>Codecure Software Solution LLP</h1>
+        <p>Your Trusted Software Consultancy Partner</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+    <div class="container">
+        <h2>Welcome to Codecure</h2>
+        <p>
+            We are a software consultancy company that specializes in providing innovative solutions
+            to businesses of all sizes. Our team of experts is dedicated to delivering high-quality
+            software development, IT consulting, and technology solutions tailored to your specific needs.
+        </p>
+        
+        <h3>Our Services</h3>
+        <ul class="services-list">
+            <li>Software Development</li>
+            <li>Web Application Development</li>
+            <li>Mobile App Development</li>
+            <li>Cloud Solutions</li>
+            <li>IT Consulting and Strategy</li>
+            <li>Data Analytics and Business Intelligence</li>
+            <li>UI/UX Design and Prototyping</li>
+            <li>Quality Assurance and Testing</li>
+            <li>DevOps and Continuous Integration</li>
         </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc eget ultrices blandit, mi dui euismod purus, non fermentum libero arcu in massa.</p>
-        </section>
-        <section>
-            <h2>Contact Information</h2>
-            <p>Email: info@example.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
-        </section>
-    </main>
+        
+        <!-- Replace "sendEmail()" with a function to trigger email -->
+        <button class="cta-btn" onclick="sendEmail()">Contact Us</button>
+    </div>
     <footer>
-        <p>&copy; 2023 My Sample Website. All rights reserved.</p>
+        <p>Contact us at: admin@codecure.co.in</p>
+        <p>&copy; 2023 Codecure Software Solution LLP. All rights reserved.</p>
     </footer>
+
+    <!-- JavaScript to trigger email -->
+    <script>
+        function sendEmail() {
+            window.location.href = "mailto:admin@codecure.co.in";
+        }
+    </script>
 </body>
 </html>
